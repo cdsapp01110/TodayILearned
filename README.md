@@ -1,70 +1,46 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Today I Learned
 
-## Available Scripts
+![TodayILearned](https://github.com/cdsapp01110/TodayILearned/assets/145883353/5f168e02-048c-48a0-8da7-edec9b990647)
 
-In the project directory, you can run:
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Today I Learned** is a full-stack web application that brings a daily dose of curiosity and learning to users. This interactive platform allows users to explore and share fascinating facts on various topics. From mind-blowing discoveries to interesting tidbits, users can engage by voting on the facts, providing valuable feedback, and even contributing their own knowledge to the community.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **Frontend:**
+  - HTML
+  - CSS
+  - JavaScript
+  - React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Backend:**
+  - Online Database and API: [Supabase](https://supabase.io/)
 
-### `npm run build`
+## How It Works
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Database and API Creation:**
+   - I leveraged the power of Supabase, a free service, to create an online database and API for our application data. This ensures seamless interaction and real-time updates.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **React for Building the App:**
+   - Recognizing the challenges of writing apps solely in JavaScript, I opted for the React library. This allowed me to build a responsive and user-friendly interface, enhancing the overall user experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Deployment with Netlify:**
+   - The final project finds its home on Netlify. Users can access the platform at [https://funfactswithtodayilearned.netlify.app/](https://funfactswithtodayilearned.netlify.app/) and enjoy a continuous stream of engaging facts.
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Vote and Feedback System:** Users can express their opinions on facts by voting them up based on whether they find them interesting, mind-blowing, or false. This creates a dynamic and engaging environment.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **User Contributions:** Empowering users to be contributors, the platform allows them to add their own facts to enrich the content. This fosters a collaborative and diverse community.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Categories for Organization:** To enhance user experience, a categorized approach is implemented. Users can explore facts based on different topics, making it easy to find content aligned with their interests.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Let's learn together and make "Today I Learned" a hub for fascinating knowledge!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Demo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Visit the platform: https://funfactswithtodayilearned.netlify.app/
